@@ -44,7 +44,12 @@ body {
   color: black;
   width: 170px;
   height: 50px;
+  /*margin-top: 10%;
+  margin-left: 10%;*/
+  /*height: 4vh;*/
 }
+/*.header:after {
+}*/
 
 .nav {
 border: 2px solid blue;
@@ -62,25 +67,27 @@ font-size: 15px;
 
 
 .location {
-  top: 35%;
+  top: 45%;
   position: absolute;
   color: white;
   text-align: left;
   margin-left: 5%;
 }
 /*.location:after {
-
 }*/
 
 .image {
   border: 2px solid teal;
   width: 100%!important;
   height: auto!important;
-  position: relative!important;
+  position: static!important;
   z-index: 0!important;
   visibility: visible!important;
   display: block!important;
   }
+/*.image:after {
+}*/
+
 .featuredProject {
   display: none;
 }
@@ -88,29 +95,16 @@ font-size: 15px;
 .featuredPress {
   border: 2px solid maroon;
   color: white;
-  background-color: yellow;
+  background-color: hotpink;
   width: 50%!important;
   /*height: auto!important;*/
-  position: relative!important;
+  position: static!important;
   z-index: 0!important;
   visibility: visible!important;
   display: block!important;
   float: left;
   /*bottom: 0;*/
   height: 600px;
-  margin-top: 159px;
-  text-align: center;
-}
-.paragraph {
-  color: black;
-  width: 100%!important;
-  height: 100%!important;
-  position: static!important;
-  z-index: 0!important;
-  visibility: visible!important;
-  display: block!important;
-  top: 50%;
-  transform: translate(0, 50%);
 }
 
 .featuredPress:after {
@@ -120,38 +114,30 @@ font-size: 15px;
 .bio {
   border: 2px solid limegreen;
   color: white;
-  background-color: blue;
+  background-color: limegreen;
   width: 50%!important;
-  /*height: auto!important;*/
+  height: auto!important;
   position: static!important;
   z-index: 0!important;
   visibility: visible!important;
   display: block!important;
   float: right;
   bottom: 0;
-  height: 600px;
-  margin-top: 159px;
-}
-
-.bio p {
-
+  height: 100%;
 }
 
 .bio:after {
 
 }
 
-/*.group:after {
+.group:after {
   content: "";
   display: table;
   clear: both;
-}*/
-.group{
-  overflow: auto;
 }
 
-/*
-@media screen and (max-width: 600px) and (min-width: 1176px){
+
+@media screen and (max-width: 600px) {
   body {
     margin: 0;
     padding: 3vw;
@@ -165,9 +151,6 @@ font-size: 15px;
     z-index: 0!important;
     visibility: visible!important;
     display: block!important;
-  }
-  .image:after {
-
   }
   .featuredProject {
     border: 2px solid hotpink;
@@ -238,6 +221,7 @@ font-size: 15px;
     margin: 0;
     padding: 10px;
     margin-top: 12px;
+
   }
 .bio {
   border: 2px solid pink;
@@ -252,21 +236,13 @@ font-size: 15px;
   margin: 0;
   padding: 10px;
   margin-top: 16px;
-}
-.paragraph {
-  color: black;
-  width: 100%!important;
-  height: 100%!important;
-  position: static!important;
-  z-index: 0!important;
-  visibility: visible!important;
-  display: block!important;
-  top: 0;
-  transform: translate(0, 0);
-}
+
 }
 
-@media screen and (max-width: 1176px) {
+
+}
+
+@media screen and (max-width: 779px) {
   body {
     margin: 0;
     /*padding: 3vw;*/
@@ -281,39 +257,5 @@ font-size: 15px;
     visibility: visible!important;
     display: block!important;
   }
-  .image:after {
-
-  }*/
-  /*.featuredPress {
-    border: 2px solid maroon;
-    color: white;
-    background-color: hotpink;
-    width: 50%!important;
-    position: relative!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
-    float: left;
-    /*bottom: 0;*/
-    /*height: 600px;
-    margin-top: 159px;
-    text-align: center;
-  }
-
-  .bio {
-    border: 2px solid limegreen;
-    color: white;
-    background-color: limegreen;
-    width: 50%!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
-    float: right;
-    bottom: 0;
-    height: 600px;
-    margin-top: 159px;
-  }*/
-
 
 }

@@ -321,6 +321,7 @@ body {
     height: 100%;
     width: 100%;
   }
+
   .container1 {
     height: 30%;
     width: 100%;
@@ -331,42 +332,48 @@ body {
     width: 100%;
     padding: 1%;
     }
-  /*.allTops {
-        max-width: 100%;
-        margin: auto;
-        height: auto;*/
-
-  .panel {
+  .nacho {
+    height: 10%
+  }
+  .smImg {
+    height: 10%;
+    width: auto;
+    overflow: auto;
     margin-top: auto 2%;
+    float: left;
   }
+  .words {
+    height: 10%;
+    width: auto;
+    margin-top: auto 2%;
+    float: left;
+
   }
+}
 
   /*------------ top image ----------------*/
+
   .topImg {
-    border: 4px solid purple;
+    border: 4px solid yellow;
     width: 100%;
-    height: ;
+    height: auto;
     position: static;
     z-index: 0;
     visibility: visible;
     display: block;
+    padding: 1%;
   }
 
-  /*------------ center box 1 ----------------*/
+  /*------------ #1 ----------------*/
   .header {
     border: ;
     height: ;
     margin-left: ;
     margin-top: ;
   }
-  .photo {
-    float: left;
-    height: 100px;
-    width:100px;
-  }
   .top1 {
     border: 4px solid pink;
-    width: 100%;
+    /*width: 100%;*/
     height: ;
     position: static;
     z-index: 0;
@@ -376,10 +383,10 @@ body {
     padding: 1%;
   }
 
-  /*------------ center box 2 ----------------*/
+  /*------------#2 ----------------*/
   .top2 {
     border: 4px solid orange;
-    width: 100%;
+    /*width: 100%;*/
     height: ;
     position: static;
     z-index: 0;
@@ -389,10 +396,10 @@ body {
     padding: 3%;
   }
 
-  /*------------ center box 3 ----------------*/
+  /*------------ #3 ----------------*/
   .top3 {
     border: 4px solid blue;
-    width: 100%;
+    /*width: 100%;*/
     height: ;
     position: static;
     z-index: 0;
@@ -402,10 +409,10 @@ body {
     padding: 1%;
   }
 
-  /*------------ center box 4 ----------------*/
+  /*------------#4 ----------------*/
   .top4 {
     border: 4px solid green;
-    width: 100%;
+    /*width: 100%;*/
     height: ;
     position: static;
     z-index: 0;
@@ -426,15 +433,6 @@ body {
     display: block;
     padding: 1%;
   }
-  /*.bottomImg {
-    border: 4px solid orange;
-    width: 100%!important;
-    height: auto!important;
-    position: static!important;
-    z-index: 0!important;
-    visibility: visible!important;
-    display: block!important;
-  }*/
 
 
 }

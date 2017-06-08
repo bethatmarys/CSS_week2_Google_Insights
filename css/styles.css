@@ -5,149 +5,86 @@
      -moz-box-sizing: border-box;
      box-sizing: border-box;
 }
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
-}
+}*/
 
 /*--------------- 0 - 600 ----------------*/
 @media screen and (max-width: 600px) {
   body {
-    margin: 0;
-    padding: 3vw;
-    display: block;
+    margin: 2px;
+    padding: 2px;
+    /*display: block;*/
     background-color: white;
     height: 100%;
-    width: 100%;
   }
 
-  .mainContainer {
-    /*height: 98%;
-    width: 98%;*/
-    /*border: 2px solid black;*/
-  }
-
- /*-------------------TOP SECTION----------------------*/
-  .container1 {
-    height: 33.3%;
-    width: 100%;
-    padding: 1%;
-    border: 2px solid red;
-  }
-
-  .topImg {
-  background-size: cover;
-  background-position: center;
-  height: 33.3%;
-  width: auto;
-  margin: 0;
-  float: left;
+.mainContainer {
+  height: 100%;
   width: 100%;
-  max-width: 30%;
+  border: 2px solid black;
+  }
+.sub-container {
+  height: 100%;
 }
-
+ /*-------------------TOP SECTION----------------------*/
+ .container1 {
+   background-image: url("../img/google.jpg");
+   background-position: right;
+   background-size: cover;
+   background-position: center;
+   height: 30vh;
+   margin: 2vw auto;
+   overflow: auto;
+ }
   /*-------------------MIDDLE SECTION----------------------*/
   .container2 {
     height: 40%;
     width: 100%;
     padding: 1%;
     border: 2px solid green;
-    }
+  }
 
-    /*.smImg {
-      height: 10%;
-      width: auto;
-      overflow: auto;
-      margin-top: auto 2%;
-      float: left;
-    }*/
-
-    /*------------ #1 ----------------*/
-    /*.header {
-      border: ;
-      height: ;
-      margin-left: ;
-      margin-top: ;
-    }*/
-
-    /*.top1 {
-      border: 4px solid pink;*/
-      /*width: 100%;*/
-      /*height: ;
-      position: static;
-      z-index: 0;
-      visibility: visible;
-      display: block;
-      margin: 0;
-      padding: 1%;
-    }*/
-
-    /*------------#2 ----------------*/
-    /*.top2 {
-      border: 4px solid orange;*/
-      /*width: 100%;*/
-      /*height: ;
-      position: static;
-      z-index: 0;
-      visibility: visible;
-      display: block;
-      margin: 0;
-      padding: 3%;
-    }*/
-
-    /*------------ #3 ----------------*/
-    /*.top3 {
-      border: 4px solid blue;*/
-      /*width: 100%;*/
-      /*height: ;
-      position: static;
-      z-index: 0;
-      visibility: visible;
-      display: block;
-      margin: 0;
-      padding: 1%;
-    }*/
-
-    /*------------#4 ----------------*/
-    .top4 {
-      border: 4px solid green;*/
-      position: static;
-      z-index: 0;
-      visibility: visible;
-      display: block;
-      margin: 0;
-      padding: 1%;
-    }
+  .smImg {
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 125px;
+    width: 125px;
+    overflow: auto;
+  }
 
 
+
+    /*------------ side article ----------------*/
+.side-article {
+  height: 10%;
+  width: 100%;
+  padding: 1%;
+  }
+.left {
+  float: left
+  }
+.words {
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 200px;
+  }
     /*-------------------BOTTOM SECTION----------------------*/
+.container3 {
+  background-image: url("../img/google2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  margin: 0;
+}
 
-  .container3 {
-    height: 33.3%;
-    width: 100%;
-    padding: 1%;
-    border: 2px solid orange;
-    }
 
-  .words {
-    height: 10%;
-    width: auto;
-    margin-top: auto 2%;
-    float: left;
-  }
 
-  .bottomImg {
-    background-size: cover;
-    background-position: center;
-    border: 2px solid yellow;
-    width: 100%;
-    height: auto;
-    position: static;
-    z-index: 0;
-    visibility: visible;
-    display: block;
-    padding: 1%;
-    overflow:hidden
-  }
-
+  clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
 }
